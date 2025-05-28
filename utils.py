@@ -49,7 +49,7 @@ def download_cutout_from_zarr(
     zarr_url,
     center,
     size,
-    out_path="cutout.npy",
+    out_path=None,
     mip="0",
     offset=None
 ):
@@ -91,5 +91,6 @@ def download_cutout_from_zarr(
                    spatial_start[2]:spatial_stop[2]].read().result()
 
     print(f"Saving cutout to {out_path} with shape {cutout.shape}")
-    np.save(out_path, cutout)
+    if out_path is not None:
+        np.save(out_path, cutout)
     return cutout
