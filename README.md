@@ -1,4 +1,4 @@
-# AC Materialization
+# generate cutout from acdata
 
 This repository provides functions to download, process, and visualize cutout images from exaSPIM datasets stored in OME-Zarr format.
 
