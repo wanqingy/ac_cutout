@@ -1,7 +1,0 @@
-nohup: ignoring input
-/home/wanqing.yu/AC_Project/ac_materialization/flattening_code/1_example_surface_detection.py:34: UserWarning: flat_mip3.tif is a low contrast image
-  imsave(tiffpath,arr[i,...],append=True,bigtiff=True)
-(1776, 1344)
-1606
-(1776, 1344)
-1577

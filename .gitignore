@@ -1,3 +1,9 @@
 # Ignore tiff files
 *.tiff
 *.tif
+.npy
+
+data/
+metadata/
+test/
+.venv/
