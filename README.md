@@ -21,4 +21,4 @@ This repository provides functions to download, process, and visualize cutout im
 See [`example.ipynb`](example.ipynb) for a complete workflow, including:
 - Downloading a cutout from a remote OME-Zarr dataset
 - Rescaling and visualizing the image
-- Viewing with microviewer or matplotlib
+- Viewing with microviewer ([GitHub](https://github.com/seung-lab/microviewer)) or [matplotlib](https://matplotlib.org/)
