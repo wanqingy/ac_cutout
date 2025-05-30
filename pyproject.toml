@@ -8,5 +8,7 @@ dependencies = [
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.3",
     "microviewer>=1.13.1",
+    "requests>=2.32.3",
+    "scikit-image>=0.25.2",
     "tensorstore>=0.1.75",
 ]
